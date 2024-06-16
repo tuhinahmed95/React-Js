@@ -10,6 +10,8 @@ const App = () => {
       <Hero/>
       <ContactForm/>
       <Footer/>
+      <h1>{new Date().getFullYear()}</h1>
+      
     </div>
   );
 };
