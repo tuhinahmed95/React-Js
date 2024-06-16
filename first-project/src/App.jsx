@@ -1,11 +1,10 @@
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
-  )
-}
+    <div>
+      <h1>I Am Learning react</h1>
+    </div>
+  );
+};
 
-export default App
+export default App;
