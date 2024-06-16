@@ -1,18 +1,20 @@
-import ContactForm from "./components/ContactForm";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
 import Result from "./components/Result";
 
 const App = () => {
-  
+
+  let city = ['Dhaka','Chitagong','Rangpur','Rajshahi','Mymensing'];
+
   return (
     <div>
-      <Header/>
-      <Hero/>
-      <ContactForm/>
-      <Footer/>
+
       <Result/>
+    <ol>
+        {
+        city.map((item,i)=>{ 
+          return <li key={(i,toString)}>{item}</li>
+        }) 
+        }
+     </ol>
     </div>
   );
 };

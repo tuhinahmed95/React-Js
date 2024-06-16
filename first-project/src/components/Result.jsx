@@ -1,7 +1,7 @@
 
 
 const Result = () => {
-    let marks = 100;
+    let marks = 80;
     return (
         <div>
             {(()=>{ 
