@@ -12,6 +12,10 @@ const App = () => {
   alert ("you clicked me !!");
  }
 
+ let PostFormData = (e)=>{ 
+  e.preventDefault();
+ }
+
   return (
     <div>
 
@@ -19,14 +23,22 @@ const App = () => {
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/>
-    <ol>
+   
+     <button onClick={handleClick}>SUBMIT</button> <br />
+
+     <form onSubmit={PostFormData}> 
+      <input type="text" placeholder="enter your name" />
+      <button>submit</button>
+     </form>
+
+
+     <ol>
         {
         city.map((item,i)=>{ 
           return <li key={(i,toString)}>{item}</li>
         }) 
         }
      </ol>
-     <button onClick={handleClick}>SUBMIT</button>
     </div>
 
     
