@@ -1,4 +1,5 @@
 import ConditionalRendaring from "./components/ConditionalRendaring";
+import Props from "./components/Props";
 import Result from "./components/Result";
 import SwitchCase from "./components/SwitchCase";
 import Ternary from "./components/Ternary";
@@ -11,10 +12,11 @@ const App = () => {
   return (
     <div>
 
-      <Result/>
+      <Result/> 
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/>
+      <Props title="this is a props title"/>
     <ol>
         {
         city.map((item,i)=>{ 
