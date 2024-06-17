@@ -1,4 +1,6 @@
+import ConditionalRendaring from "./components/ConditionalRendaring";
 import Result from "./components/Result";
+
 
 const App = () => {
 
@@ -8,6 +10,7 @@ const App = () => {
     <div>
 
       <Result/>
+      <ConditionalRendaring/>
     <ol>
         {
         city.map((item,i)=>{ 
