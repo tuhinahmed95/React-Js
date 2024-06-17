@@ -8,6 +8,9 @@ import Ternary from "./components/Ternary";
 const App = () => {
 
   let city = ['Dhaka','Chitagong','Rangpur','Rajshahi','Mymensing'];
+ function handleClick (){ 
+  alert ("you clicked me !!");
+ }
 
   return (
     <div>
@@ -16,7 +19,6 @@ const App = () => {
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/>
-      <Props title="this is a props title"/>
     <ol>
         {
         city.map((item,i)=>{ 
@@ -24,7 +26,10 @@ const App = () => {
         }) 
         }
      </ol>
+     <button onClick={handleClick}>SUBMIT</button>
     </div>
+
+    
   );
 };
 
