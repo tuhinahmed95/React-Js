@@ -1,5 +1,6 @@
 import ConditionalRendaring from "./components/ConditionalRendaring";
 import Result from "./components/Result";
+import SwitchCase from "./components/SwitchCase";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
 
       <Result/>
       <ConditionalRendaring/>
+      <SwitchCase/>
     <ol>
         {
         city.map((item,i)=>{ 
