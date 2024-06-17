@@ -12,8 +12,10 @@ const App = () => {
   alert ("you clicked me !!");
  }
 
+
  let PostFormData = (e)=>{ 
   e.preventDefault();
+  alert ("form submited !")
  }
 
   return (
