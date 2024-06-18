@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import ConditionalRendaring from "./components/ConditionalRendaring";
 import Props from "./components/Props";
 import Result from "./components/Result";
@@ -18,6 +19,11 @@ const App = () => {
   alert ("form submited !")
  }
 
+let myHeadLine = useRef();
+let Change = () =>{ 
+  myHeadLine.current.innerText="Hello";
+}
+
   return (
     <div>
 
@@ -25,6 +31,7 @@ const App = () => {
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/>
+      
    
      <button onClick={handleClick}>SUBMIT</button> <br />
 
@@ -41,6 +48,10 @@ const App = () => {
         }) 
         }
      </ol>
+
+     <h1 ref={myHeadLine}></h1>
+     <button onClick={Change}>Click</button>
+
     </div>
 
     
