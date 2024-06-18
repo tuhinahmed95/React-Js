@@ -1,10 +1,9 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import ConditionalRendaring from "./components/ConditionalRendaring";
 import Props from "./components/Props";
 import Result from "./components/Result";
 import SwitchCase from "./components/SwitchCase";
 import Ternary from "./components/Ternary";
-import UseState from "./components/UseState";
 
 
 const App = () => {
@@ -48,6 +47,9 @@ const ChangeCss = () =>{
   myClass.current.classlist.add("text-danger")
 }
 
+// useState use here
+
+
   return (
     <div>
 
@@ -55,7 +57,6 @@ const ChangeCss = () =>{
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/> 
-      <UseState/>
       
    
      <button onClick={handleClick}>SUBMIT</button> <br />
@@ -86,7 +87,9 @@ const ChangeCss = () =>{
 
     {/* css class add and remove here */}
     <h1 className="text-success"  ref={myClass}>this is bootstrap</h1>
-    <button onClick={ChangeCss}>Click Here</button>
+    <button onClick={ChangeCss}>Click Here</button><br /><br />
+
+    
 
     </div>
 
