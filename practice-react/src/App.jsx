@@ -24,6 +24,13 @@ let Change = () =>{
   myHeadLine.current.innerText="Hello";
 }
 
+let myImg = useRef();
+const imgBtn = () =>{ 
+  myImg.current.src="https://placehold.jp/3d4070/ffffff/150x150.png"
+  myImg.current.setAttribute("width", "500px");
+  myImg.current.setAttribute("height", "300px");
+}
+
   return (
     <div>
 
@@ -50,8 +57,10 @@ let Change = () =>{
      </ol>
 
      <h1 ref={myHeadLine}></h1>
-     <button onClick={Change}>Click</button>
+     <button onClick={Change}>Click</button><br /> <br />
 
+    <img ref={myImg} src="https://placehold.jp/150x150.png" /><br />
+    <button onClick={imgBtn}>imgBtn</button>
     </div>
 
     
