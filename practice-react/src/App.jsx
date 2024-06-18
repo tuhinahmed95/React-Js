@@ -4,6 +4,7 @@ import Props from "./components/Props";
 import Result from "./components/Result";
 import SwitchCase from "./components/SwitchCase";
 import Ternary from "./components/Ternary";
+import UseState from "./components/UseState";
 
 
 const App = () => {
@@ -54,6 +55,7 @@ const ChangeCss = () =>{
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/> 
+      <UseState/>
       
    
      <button onClick={handleClick}>SUBMIT</button> <br />
