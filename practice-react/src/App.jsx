@@ -13,12 +13,13 @@ const App = () => {
   alert ("you clicked me !!");
  }
 
-
+// form submit here
  let PostFormData = (e)=>{ 
   e.preventDefault();
   alert ("form submited !")
  }
 
+//  useRef use here
 let myHeadLine = useRef();
 let Change = () =>{ 
   myHeadLine.current.innerText="Hello";
@@ -29,6 +30,14 @@ const imgBtn = () =>{
   myImg.current.src="https://placehold.jp/3d4070/ffffff/150x150.png"
   myImg.current.setAttribute("width", "500px");
   myImg.current.setAttribute("height", "300px");
+}
+
+let FirstName,LastName = useRef();
+
+const MultipleInputConnect = () =>{ 
+  let Fname = FirstName.value;
+  let Lname = LastName.value;
+  alert (Fname + " "+ Lname);
 }
 
   return (
@@ -60,7 +69,12 @@ const imgBtn = () =>{
      <button onClick={Change}>Click</button><br /> <br />
 
     <img ref={myImg} src="https://placehold.jp/150x150.png" /><br />
-    <button onClick={imgBtn}>imgBtn</button>
+    <button onClick={imgBtn}>imgBtn</button><br /><br />
+
+    <input ref={(a)=>FirstName=a} placeholder="enter your first name" type="text" />
+    <input ref={(b)=>LastName=b} placeholder="enter your last name" type="text" />
+    <button onClick={MultipleInputConnect}>Submit</button>
+
     </div>
 
     
