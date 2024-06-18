@@ -40,6 +40,13 @@ const MultipleInputConnect = () =>{
   alert (Fname + " "+ Lname);
 }
 
+// css class remove and add here
+let myClass = useRef();
+const ChangeCss = () =>{ 
+  myClass.current.classlist.remove("text-success")
+  myClass.current.classlist.add("text-danger")
+}
+
   return (
     <div>
 
@@ -70,10 +77,14 @@ const MultipleInputConnect = () =>{
 
     <img ref={myImg} src="https://placehold.jp/150x150.png" /><br />
     <button onClick={imgBtn}>imgBtn</button><br /><br />
-
+        {/* multiple useref use here */}
     <input ref={(a)=>FirstName=a} placeholder="enter your first name" type="text" />
     <input ref={(b)=>LastName=b} placeholder="enter your last name" type="text" />
     <button onClick={MultipleInputConnect}>Submit</button>
+
+    {/* css class add and remove here */}
+    <h1 className="text-success"  ref={myClass}>this is bootstrap</h1>
+    <button onClick={ChangeCss}>Click Here</button>
 
     </div>
 
