@@ -53,7 +53,7 @@ const ChangeCss = () =>{
       <Result/> 
       <ConditionalRendaring/>
       <SwitchCase/>
-      <Ternary/>
+      <Ternary/> 
       
    
      <button onClick={handleClick}>SUBMIT</button> <br />
