@@ -1,6 +1,7 @@
 import React from 'react'
+import "./Video.css"
 
-const App = () => {
+function Video() {
   return (
     <div>
       
@@ -8,4 +9,4 @@ const App = () => {
   )
 }
 
-export default App
+export default Video
