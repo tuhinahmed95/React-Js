@@ -9,19 +9,21 @@ import user_4 from '../../assets/user-4.png'
 
 const Testimonial = () => {
 
-    const slider = useRef();
-    let tx = 0;
-
-    const slideForward =()=>{ 
-        if(tx> -50){ 
-            tx -= 25;
+        const slider = useRef();
+        let tx = 0;
+        const slideForward = () =>{ 
+            if(tx > -50){ 
+                tx -=25;
+            }
+            slider.current.style.transform = 'translateX ($ {tx}%)';
         }
-        slider.current.style.transform ='translateX(${tx}%)'
-    }
+        const slideBackward = () =>{ 
+            if(tx < 0){ 
+                tx +=25;
+            }
+            slider.current.style.transform = 'translateX ($ {tx}%)';
+        }
 
-    const slideBackward = () =>{ 
-        
-    }
 
   return (
     <div className='testimonials'>
