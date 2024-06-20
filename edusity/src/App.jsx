@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './components/navbar/Navbar'
 import Hero from './components/hero/Hero'
 import Programs from './components/programs/Programs'
@@ -8,9 +8,12 @@ import Campus from './components/campus/Campus'
 import Testimonial from './components/testimonial/Testimonial'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import VideoPlayer from './components/video/VideoPlayer'
 
 const App = () => {
+
+  
+
+
   return (
     <div>
       <Navbar/>
@@ -27,7 +30,7 @@ const App = () => {
         <Contact/>
         <Footer/>
       </div>
-      <VideoPlayer/>
+     
     </div>
   )
 }
