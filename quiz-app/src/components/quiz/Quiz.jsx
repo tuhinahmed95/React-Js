@@ -14,6 +14,7 @@ const Quiz = () => {
             <li>Pen Drive</li>
         </ul>
         <button>Next</button>
+        <div className="index">1 f 5 questions</div>
       
     </div>
   )
