@@ -4,6 +4,7 @@ import Props from "./components/Props";
 import Result from "./components/Result";
 import SwitchCase from "./components/SwitchCase";
 import Ternary from "./components/Ternary";
+import Card from "./components/Card";
 
 
 const App = () => {
@@ -57,6 +58,9 @@ const ChangeCss = () =>{
       <ConditionalRendaring/>
       <SwitchCase/>
       <Ternary/> 
+      <Card title="this is a title" desText="this is desc"/>
+      <Card title="this is a title" desText="this is desc"/>
+      <Card title="this is a title" desText="this is desc"/>
       
    
      <button onClick={handleClick}>SUBMIT</button> <br />
