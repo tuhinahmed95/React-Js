@@ -50,7 +50,6 @@ const ChangeCss = () =>{
 
 // useState use here
 
-
   return (
     <div>
 
@@ -61,6 +60,7 @@ const ChangeCss = () =>{
       <Card title="this is a title" desText="this is desc"/>
       <Card title="this is a title" desText="this is desc"/>
       <Card title="this is a title" desText="this is desc"/>
+      <Props firstTitle="this is childBtn" btn="hello world"/>
       
    
      <button onClick={handleClick}>SUBMIT</button> <br />

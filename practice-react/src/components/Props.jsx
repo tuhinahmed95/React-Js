@@ -1,9 +1,12 @@
 
 
-const Props = () => {
+const Props = (props) => {
     return (
         <div>
-            <button onClick={props.ChildBtn}>submit</button>
+            <h5>{props.firstTitle}</h5>
+            <h6>{props.btn}</h6>
+            <h1>{props.title}</h1>
+            <h1>{props.desText}</h1>
         </div>
     );
 };
