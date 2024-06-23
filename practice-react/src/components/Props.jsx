@@ -1,10 +1,11 @@
 
 
 const Props = (props) => {
+    const {firstTitle,btn}=props;
     return (
         <div>
-            <h5>{props.firstTitle}</h5>
-            <h6>{props.btn}</h6>
+            <h5>{firstTitle}</h5>
+            <h6>{btn}</h6>
         </div>
     );
 };
