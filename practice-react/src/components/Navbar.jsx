@@ -9,6 +9,7 @@ const Navbar = () => {
                     <li className='nav-link text-light'>about</li>
                     <li className='nav-link text-light'>service</li>
                 </ul>
+                <input type="text" placeholder='search'/>
             </nav>
         </div>
     );
