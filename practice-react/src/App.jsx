@@ -5,7 +5,6 @@ import Result from "./components/Result";
 import SwitchCase from "./components/SwitchCase";
 import Ternary from "./components/Ternary";
 import Card from "./components/Card";
-import Navbar from "./components/Navbar";
 
 
 const App = () => {
@@ -53,7 +52,6 @@ const ChangeCss = () =>{
 
   return (
     <div>
-      <Navbar/>
       <Result/> 
       <ConditionalRendaring/>
       <SwitchCase/>
