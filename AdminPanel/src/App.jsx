@@ -10,7 +10,6 @@ function App() {
   return (
     <div className='grid-container'> 
       <Header />
-      <Sidebar />
       <Home />
     </div>
   )
