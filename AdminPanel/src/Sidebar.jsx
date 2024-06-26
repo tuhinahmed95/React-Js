@@ -1,60 +1,61 @@
 import React from 'react'
-import { BsCart, Bsgrid1X2Fill,BsFillArchiveFill,BsFillGrid3X2GapFill, BsPepoleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
+import { BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
 
 function Sidebar() {
   return (
     <aside id='sidebar'>
-      <div className='sidebar-title'> 
 
+     <div className='sidebar-titel'> 
         <div className='sidebar-brand'> 
-            <BsCart className='icon-header'/> SHOP
+            <BsCart3 className='icon_header'/> SHOP
         </div>
         <span className='icon close_icon'>X</span>
-      </div>
+     </div>
 
-      <ul className='sidebar-list'> 
+     <ul className='sidebar-list'> 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <Bsgrid1X2Fill className='icon'/> Dashboard
+                <BsCart3 className='icon'/> Dashboard
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsFillArchiveFill className='icon'/> Products
+                <BsCart3 className='icon'/> Products
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsFillGrid3X2GapFill className='icon'/> Categories
+                <BsCart3 className='icon'/> Categories
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsPepoleFill className='icon'/> Customers
+                <BsCart3 className='icon'/> Customers
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsListCheck className='icon'/> Inventory
+                <BsCart3 className='icon'/> Inventory
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsMenuButtonWideFill className='icon'/> Reports
+                <BsCart3 className='icon'/> Reports
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                < BsFillGearFill className='icon'/> Setting
+                <BsCart3 className='icon'/> Setting
             </a>
         </li>
-      </ul>
+     </ul>
+
     </aside>
   )
 }
