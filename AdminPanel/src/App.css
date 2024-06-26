@@ -12,3 +12,19 @@ body{
   grid-template-areas: 'sidebar header header' 'sidebar main main';
   height: 100vh;
 }
+
+/* start header */
+
+.header{ 
+  grid-area: header;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 0 30px;
+  box-shadow: 0 6px 7px -3px rgba(0,0,0,0.35);
+}
+.menu-icon{ 
+  display: none;
+}
+/* end header */
