@@ -15,43 +15,43 @@ function Sidebar() {
      <ul className='sidebar-list'> 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Dashboard
+                <BsGrid1X2Fill className='icon'/> Dashboard
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Products
+                <BsFillArchiveFill className='icon'/> Products
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Categories
+                <BsFillGrid3X3GapFill className='icon'/> Categories
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Customers
+                <BsPeopleFill className='icon'/> Customers
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Inventory
+                <BsListCheck className='icon'/> Inventory
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Reports
+                <BsMenuButtonWideFill className='icon'/> Reports
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart3 className='icon'/> Setting
+                <BsFillGearFill className='icon'/> Setting
             </a>
         </li>
      </ul>
