@@ -28,3 +28,22 @@ body{
   display: none;
 }
 /* end header */
+
+
+/* start sidebar */
+#sidebar{ 
+ grid-area: sidebar;
+ height: 100%;
+ background-color: #263043;
+ overflow-y: auto;
+ transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+}
+.sidebar-title{ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px 0px 30px;
+  margin-bottom: 30px;
+}
+/* end sidebar */

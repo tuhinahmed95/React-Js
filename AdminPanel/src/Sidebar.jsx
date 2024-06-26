@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsCart } from 'react-icons/bs'
+import { BsCart, Bsgrid1X2Fill,BsFillArchiveFill,BsFillGrid3X2GapFill, BsPepoleFill, BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs'
 
 function Sidebar() {
   return (
@@ -15,43 +15,43 @@ function Sidebar() {
       <ul className='sidebar-list'> 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Dashboard
+                <Bsgrid1X2Fill className='icon'/> Dashboard
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Products
+                <BsFillArchiveFill className='icon'/> Products
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Categories
+                <BsFillGrid3X2GapFill className='icon'/> Categories
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Customers
+                <BsPepoleFill className='icon'/> Customers
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Inventory
+                <BsListCheck className='icon'/> Inventory
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Reports
+                <BsMenuButtonWideFill className='icon'/> Reports
             </a>
         </li>
 
         <li className='sidebar-list-item'> 
             <a href=""> 
-                <BsCart className='icon'/> Setting
+                < BsFillGearFill className='icon'/> Setting
             </a>
         </li>
       </ul>
