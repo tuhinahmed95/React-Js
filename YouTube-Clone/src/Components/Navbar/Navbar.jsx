@@ -12,14 +12,17 @@ import profile_icon from '../../assets/jack.png'
 const Navbar = () => {
   return (
     <nav className='flex-div'>
-      <div className='naf-left flex-div'> 
+      <div className='nav-left flex-div'> 
         <img className='menu_icon' src={menu_icon} alt="" />
         <img className='logo' src={logo} alt="" />
       </div>
 
       <div className='nav-middle flex-div'> 
-        <input type="text" placeholder='Search'/>
-        <img src={search_icon} alt="" />
+        <div className="search-box flex-div"> 
+            <input type="text" placeholder='Search'/>
+            <img src={search_icon} alt="" />
+        </div>
+       
       </div>
 
       <div className="nav-right flex-div"> 
