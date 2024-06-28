@@ -24,39 +24,63 @@ const Sidebar = () => {
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={game_icon} alt="" /> <p>Gaming</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={automobiles} alt="" /> <p>Automilies</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={sports} alt="" /> <p>Sports</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={entertainment} alt="" /> <p>Entertainment</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={tech} alt="" /> <p>Technology</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={music} alt="" /> <p>Music</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={blogs} alt="" /> <p>Blogs</p>
             </div>
 
             <div className="side-link">
-                <img src={home} alt="" /> <p>Home</p>
+                <img src={news} alt="" /> <p>News</p>
             </div>
             <hr />
         </div>
-      
+
+
+
+            <div className="subscribed-list"> 
+                <h3>Subscribed</h3>
+                <div className="side-link"> 
+                    <img src={jack} alt="" /> <p>PeeDiPie</p>
+                </div>
+
+                <div className="side-link"> 
+                    <img src={simon} alt="" /> <p>MrBeast</p>
+                </div>
+
+                <div className="side-link"> 
+                    <img src={tom} alt="" /> <p>Justin Beiber</p>
+                </div>
+
+                <div className="side-link"> 
+                    <img src={megan} alt="" /> <p>5-Minutes Crafts</p>
+                </div>
+
+                <div className="side-link"> 
+                    <img src={cameron} alt="" /> <p>PeeDiPie</p>
+                </div>
+            </div>
     </div>
   )
 }
