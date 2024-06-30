@@ -1,12 +1,16 @@
-import React from 'react';
-import Header from './components/Header';
 
-const App = () => {
-    return (
-        <div>
-            <Header/>
-        </div>
-    );
-};
+import { Outlet } from 'react-router-dom'
+import './App.css'
+import Navitems from './components/Navitems'
 
-export default App;
+function App() {
+
+  return (
+    <>
+    <Navitems />
+    <Outlet />
+    </>
+  )
+}
+
+export default App
