@@ -19,7 +19,7 @@ const navigate = useNavigate();
           {signState === "Sign Up"? <input type="text" placeholder='Your name'/>:<></>}         
           <input type="email" placeholder='email'/>
           <input type="password" placeholder='password'/>
-          <button onClick={()=>navigate("/")}>{signState}</button>
+          <button onClick={()=>navigate("/home")}>{signState}</button>
           <div className="form-help"> 
             <div className="remember"> 
               <input type="checkbox" />
