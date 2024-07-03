@@ -10,8 +10,9 @@ const App = () => {
     <div>
       <BrowserRouter> 
       <Sidebar />
-      <ContentPage />
       <TestPage />
+      <ContentPage />
+      
         <Routes> 
             <Route/>
         </Routes>
