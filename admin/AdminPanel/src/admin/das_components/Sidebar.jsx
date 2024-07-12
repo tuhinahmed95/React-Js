@@ -39,7 +39,7 @@ const Sidebar = () => {
       </a>
       <ul id="tables-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
         
-        <Link to="/items">
+        <Link to="/categorylist">
            <i className="bi bi-circle" /><span>Add Category</span>
         </Link>
         <li>

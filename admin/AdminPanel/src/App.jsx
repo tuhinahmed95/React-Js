@@ -5,6 +5,7 @@ import Main from "./admin/pages/Main";
 import ListProduct from "./admin/pages/product/ListProduct";
 import AddProduct from "./admin/pages/product/AddProduct";
 import EditProduct from "./admin/pages/product/EditProduct";
+import CateGory from "./admin/pages/product/EditProduct";
 
 
 // import './App.css'
@@ -24,6 +25,7 @@ function App() {
           
           <Route path="/itemslist" element={<ListProduct />} />
           <Route path="/itemedit/:id" element={<EditProduct />} />
+          <Route path="/categorylist/" element={<CateGory />} />
       </Routes>
     </div>
   )
