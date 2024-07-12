@@ -32,6 +32,26 @@ const Sidebar = () => {
           </Link>
       </ul>
     </li>{/* End Tables Nav */}
+
+    <li className="nav-item">
+      <a className="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+        <i className="bi bi-layout-text-window-reverse" /><span>Category</span><i className="bi bi-chevron-down ms-auto" />
+      </a>
+      <ul id="tables-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
+        
+        <Link to="/items">
+           <i className="bi bi-circle" /><span>Add Category</span>
+        </Link>
+        <li>
+          <Link to="/itemslist">
+            <i className="bi bi-circle" /><span>Add Sub Category</span>
+          </Link>
+        </li>
+        <Link to="/orderitemslist">
+            <i className="bi bi-circle" /><span>Category List</span>
+          </Link>
+      </ul>
+    </li>{/* End Tables Nav */}
    
     <li className="nav-item">
       <a className="nav-link collapsed" href="users-profile.html">
