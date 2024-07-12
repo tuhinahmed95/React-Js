@@ -12,33 +12,7 @@ const Sidebar = () => {
       </a>
     </li>{/* End Dashboard Nav */}
    
-    <li className="nav-item">
-      <a className="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-        <i className="bi bi-journal-text" /><span>Forms</span><i className="bi bi-chevron-down ms-auto" />
-      </a>
-      <ul id="forms-nav" className="nav-content collapse " data-bs-parent="#sidebar-nav">
-        <li>
-          <a href="forms-elements.html">
-            <i className="bi bi-circle" /><span>Form Elements</span>
-          </a>
-        </li>
-        <li>
-          <a href="forms-layouts.html">
-            <i className="bi bi-circle" /><span>Form Layouts</span>
-          </a>
-        </li>
-        <li>
-          <a href="forms-editors.html">
-            <i className="bi bi-circle" /><span>Form Editors</span>
-          </a>
-        </li>
-        <li>
-          <a href="forms-validation.html">
-            <i className="bi bi-circle" /><span>Form Validation</span>
-          </a>
-        </li>
-      </ul>
-    </li>{/* End Forms Nav */}
+  
     <li className="nav-item">
       <a className="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
         <i className="bi bi-layout-text-window-reverse" /><span>Product</span><i className="bi bi-chevron-down ms-auto" />
