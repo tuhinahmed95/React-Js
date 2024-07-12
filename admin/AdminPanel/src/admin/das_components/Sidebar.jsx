@@ -6,10 +6,10 @@ const Sidebar = () => {
     <aside id="sidebar" className="sidebar">
   <ul className="sidebar-nav" id="sidebar-nav">
     <li className="nav-item">
-      <a className="nav-link collapsed" href="index.html">
+      <Link to='/dashboard' className="nav-link collapsed" href="index.html">
         <i className="bi bi-grid" />
         <span>Dashboard</span>
-      </a>
+      </Link>
     </li>{/* End Dashboard Nav */}
    
   
